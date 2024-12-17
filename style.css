@@ -1,0 +1,168 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background-color: #003366;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background-color: #004080;
+  color: white;
+  padding: 80px 20px;
+}
+
+.hero .logo {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-hero {
+  background-color: #ffcc00;
+  color: #003366;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-hero:hover {
+  background-color: #003366;
+  color: white;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+/* Ebooks Section */
+.ebooks {
+  padding: 50px 20px;
+}
+
+.ebooks h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.ebook-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dua kolom */
+  gap: 20px;
+}
+
+.ebook-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ebook-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.ebook-item h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.ebook-item p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.ebook-item .btn {
+  background-color: #ffcc00;
+  color: #003366;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.ebook-item .btn:hover {
+  background-color: #003366;
+  color: white;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.contact a {
+  color: #003366;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #003366;
+  color: white;
+}
+
+footer p {
+  font-size: 14px;
+}
